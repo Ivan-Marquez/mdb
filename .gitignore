@@ -16,3 +16,7 @@
 
 # Env files
 .env*
+
+# MongoDB dump files and output
+output.json
+dump/
