@@ -18,8 +18,8 @@ var rootCmd = &cobra.Command{
 	Long: `
 	mdb is a CLI that empowers MongoDB commands.
 
-	This application allows you to run the most
-	common commands for importing and exporting
+	This application allows you to run the mostly
+	used commands for importing / exporting
 	data from MongoDB. It can be configured with
 	environment variables so that you don't have
 	to spend time searching for urls and credentials.

@@ -16,7 +16,7 @@ import (
 // mongorestoreCmd represents the mongorestore command
 var mongorestoreCmd = &cobra.Command{
 	Use:   "mongorestore",
-	Short: "Import data from a MongoDB dump",
+	Short: "import data from a MongoDB dump",
 	Long: `
 	mongorestore program loads data from either 
 	a binary database dump created by mongodump or 

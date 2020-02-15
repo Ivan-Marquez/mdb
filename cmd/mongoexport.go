@@ -16,7 +16,7 @@ import (
 // mongoexportCmd represents the mongoexport command
 var mongoexportCmd = &cobra.Command{
 	Use:   "mongoexport",
-	Short: "Export data from a MongoDB collection",
+	Short: "export data from a MongoDB collection",
 	Long: `
 	mongoexport is a command-line tool that produces 
 	a JSON or CSV export of data stored in a MongoDB 

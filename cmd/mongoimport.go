@@ -16,7 +16,7 @@ import (
 // mongoimportCmd represents the mongoimport command
 var mongoimportCmd = &cobra.Command{
 	Use:   "mongoimport",
-	Short: "Import data to a MongoDB collection",
+	Short: "import data to a MongoDB collection",
 	Long: `
 	mongoimport tool imports content from 
 	an Extended JSON, CSV, or TSV export created 

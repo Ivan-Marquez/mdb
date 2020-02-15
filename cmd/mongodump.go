@@ -16,7 +16,7 @@ import (
 // mongodumpCmd represents the mongodump command
 var mongodumpCmd = &cobra.Command{
 	Use:   "mongodump",
-	Short: "Create a binary export from MongoDB",
+	Short: "create a binary export from MongoDB",
 	Long: `
 	mongodump is a utility for creating a binary export 
 	of the contents of a database. mongodump can export 
