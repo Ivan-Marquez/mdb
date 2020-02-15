@@ -14,7 +14,7 @@ var cfgFile string
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "mdb",
-	Short: "A CLI for better management of MongoDB commands",
+	Short: "A CLI to manage MongoDB commands",
 	Long: `
 	mdb is a CLI that empowers MongoDB commands.
 
